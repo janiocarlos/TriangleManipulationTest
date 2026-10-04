@@ -7,3 +7,6 @@ def isTriangle(x:int, y:int, z:int)->bool:
         return False
     else:
         return True
+
+def ThirdAngle(alfa,beta)->float:
+    return 180 -alfa-beta
